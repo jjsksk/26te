@@ -23,6 +23,8 @@ function setup() {
   video.hide();
   loadHandposeModel();
   pickNewName();
+  document.getElementById("startButton").disabled = false;
+document.getElementById("startButton").innerText = "開始遊戲";
 }
 
 async function loadHandposeModel() {
